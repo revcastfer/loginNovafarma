@@ -1,0 +1,154 @@
+body{
+	color:white;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+#logo{
+	width: 8vw;
+	padding: 5px 0px 0px 15px;
+}
+
+#videofondo{
+	width: 100%;
+	height:79vh;
+	object-fit: cover;
+	overflow: clip;
+	z-index: -5;
+
+}
+
+#cubiertaVideo{
+	background-image: linear-gradient(320deg, #138082 45%, #02263c -70%);
+    opacity: 0.5;
+    left: 0;
+    width: 100%;
+    height:95%;
+    position: absolute;
+}
+
+#containerVideo{
+
+	position:relative;
+	width:100vw;
+	height:83vh;
+	display:flex;
+	align-items:center;
+
+}
+
+
+#logonova{
+position: absolute;
+width: 50vw;
+left: 6vw;
+top: 25vh;
+
+}
+
+#login{
+	display:flex;
+	flex-direction:column;
+	position:absolute;
+	background-color:white;
+	border: none;
+	width: 16vw;
+	Min-Height: 50vh;
+	max-Height: 50vh;  
+	align-items:center;
+	border-radius:25px;
+	font-size:25px;
+	color: #033953;
+	text-align:center;
+	justify-content:center;
+	align-items:center;
+	padding:10px;
+	right:12%
+}
+
+
+#logoUser{
+	width: 8vw;
+
+}
+
+.inputsLogin{
+    width:11vw;
+	padding:8px;
+	border-radius:8px;
+	border:1px solid grey;
+	height: 15px;
+}
+
+.inputsLogin:hover{
+	border-color: green; green;
+	border-width: 2px;
+}
+
+
+
+#acces{
+	font-size: 30px;
+	padding:13px 0px 15px 0px
+}
+
+#loginButton{
+	width:12vw;
+	padding:8px;
+	border-radius:8px;
+	border:none;
+	background-color:#09b5c1;
+	height:5vh;
+
+}
+
+
+#footer{
+	position: relative;
+	background-color:grey;
+	height: 9.8vh;
+	width: 100vw;
+	position:absolute;
+	bottom:0px;
+	opacity: 0.3;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	bottom:0px;
+	color:red;
+	font-size: 19px;
+	
+}
+
+#logopie{
+
+	width:auto;
+	height:33px;
+	display:block;
+	padding:0px 25px 0px 25px;
+	filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7)); 
+}
+
+.espacioLink{
+ padding:5px
+}
+
+
+#infoFooter{
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 18px;
+	z-index: 5;
+	color: #033953;
+}
+
+a{
+	text-decoration: none;
+}
