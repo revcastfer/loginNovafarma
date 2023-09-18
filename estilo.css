@@ -57,8 +57,8 @@ top: 25vh;
 	background-color:white;
 	border: none;
 	width: 16vw;
-	Min-Height: 50vh;
-	max-Height: 50vh;  
+	min-width: 180px;
+	Height: 50vh;	  
 	align-items:center;
 	border-radius:25px;
 	font-size:25px;
@@ -77,15 +77,18 @@ top: 25vh;
 }
 
 .inputsLogin{
-    width:11vw;
+    width:150px;
+
 	padding:8px;
 	border-radius:8px;
 	border:1px solid grey;
+	margin: 1px;
 	height: 15px;
 }
 
 .inputsLogin:hover{
 	border-color: green; green;
+	margin: 0px;
 	border-width: 2px;
 }
 
@@ -97,7 +100,7 @@ top: 25vh;
 }
 
 #loginButton{
-	width:12vw;
+	width:170px;
 	padding:8px;
 	border-radius:8px;
 	border:none;
