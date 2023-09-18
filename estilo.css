@@ -10,6 +10,7 @@ body{
 
 #logo{
 	width: 8vw;
+	min-width: 70px;
 	padding: 5px 0px 0px 15px;
 }
 
@@ -72,7 +73,7 @@ top: 25vh;
 
 
 #logoUser{
-	width: 8vw;
+	width: 95px;
 
 }
 
@@ -154,4 +155,23 @@ top: 25vh;
 
 a{
 	text-decoration: none;
+}
+
+@media only screen and (max-width: 660px) {
+
+	#logonova{
+		position: absolute;
+		top:35px;
+		width: 80%;		
+	}
+
+
+	#login{
+			
+		top:25vh;
+			}
+	#infoFooter{
+		font-size: 8px;
+		}
+
 }
