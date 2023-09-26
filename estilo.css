@@ -2,10 +2,9 @@ body{
 	color:white;
 	display: flex;
 	flex-direction: column;
-	overflow: hidden;
+	overflow-x:auto;
 	margin: 0px;
 	padding: 0px;
-
 }
 
 #logo{
@@ -59,7 +58,7 @@ top: 25vh;
 	border: none;
 	width: 16vw;
 	min-width: 180px;
-	Height: 50vh;	  
+	Height: 380px;	  
 	align-items:center;
 	border-radius:25px;
 	font-size:25px;
@@ -79,17 +78,16 @@ top: 25vh;
 
 .inputsLogin{
     width:150px;
-
-	padding:8px;
+    padding:8px;
 	border-radius:8px;
 	border:1px solid grey;
 	margin: 1px;
-	height: 15px;
+	height: 20px;
 }
 
 .inputsLogin:hover{
 	border-color: green; green;
-	margin: 0px;
+	margin: 1px;
 	border-width: 2px;
 }
 
@@ -101,32 +99,15 @@ top: 25vh;
 }
 
 #loginButton{
-	width:170px;
+	width:100%;
 	padding:8px;
 	border-radius:8px;
 	border:none;
 	background-color:#09b5c1;
-	height:5vh;
-
-}
-
-
-#footer{
+	height: 30px;
 	
-	background-color:grey;
-	height: 9.8vh;
-	width: 100vw;
-	position:absolute;
-	bottom:0px;
-	opacity: 0.3;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	bottom:0px;
-	color:red;
-	font-size: 19px;
-	
-}
+	}
+
 
 #logopie{
 
@@ -147,14 +128,21 @@ top: 25vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	position: absolute;
-	bottom: 18px;
+	position: relative;
 	z-index: 5;
 	color: #033953;
+	height: 8vh;
 }
 
 a{
 	text-decoration: none;
+}
+
+.form-signin{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 13px;
 }
 
 @media only screen and (max-width: 660px) {
@@ -164,11 +152,33 @@ a{
 		top:35px;
 		width: 80%;		
 	}
-	#login{			
+
+
+	#login{
+		height:320px ;
 		top:25vh;
 			}
 	#infoFooter{
-		font-size: 8px;
+		font-size: 11px;
 		}
 
+}
+
+
+@media only screen and (max-height: 400px) {
+
+	#login{
+		height: 180px;
+		padding: auto;
+
+	}
+
+	#infoFooter{
+		font-size: 10px;
+
+	}
+	
+	#logoUser{
+		display: none;
+	}
 }
